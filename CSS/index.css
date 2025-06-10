@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  cursor: pointer;
+}
+
+.top-banner {
+      background-color: #f4dacd;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      font-size: 14px;
+      height: 50px;
+      font-weight: 800;
+      border-bottom: 1px solid #f4dacd;
+      font-family: Arial, sans-serif;
+      text-decoration: underline;
+    }
+
+    .top-banner a {
+      color: black;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+    }
+
+    .top-banner a:hover {
+      border-bottom: 2px solid black;
+    }
+
+    .divider {
+      border-left: 1px solid rgb(142, 140, 140);
+      height: 25px;
+    }
