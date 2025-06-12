@@ -370,3 +370,82 @@
 .button_2:active {
   scale: 1;
 }
+
+.happiest_img{
+  width: 620px;
+  height: 370px;
+  object-fit:cover;
+  
+}
+.happiest_3{
+  border: 2px solid #f3eeea;
+   height: 370px;
+   width: 606px;
+   background-color: #f3eeea;
+   padding: 90px 0px;
+}
+
+.happiest{
+  display: flex;
+  margin: 50px 0px;
+}
+
+.button_3 {
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  height: 55px;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  margin-left: 210px;
+  font-size: 15px;
+  color:white;
+  border: 2px solid black;
+  border-radius: 34px;
+  background-color: black;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+}
+
+.button_3::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 150px;
+  height: 55px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color:#fff;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.button_3:hover::before {
+  scale: 2;
+}
+
+.button_3:hover {
+  color:black;
+  scale: 1.1;
+   transition: 10s ease ease-in;
+  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+
+.button_3:active {
+  scale: 1;
+}
+
+.happiest_text{
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+}
+.happiest_text-1{
+  text-align: center;
+  padding: 17px 0px;
+}
+
