@@ -720,6 +720,8 @@
       box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     }
 
+
+    
     .V{
       width: 230px;
       height: 220px;
@@ -814,3 +816,132 @@
   scale: 1;
 }
 
+.pnk_text{
+
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 35px;
+  word-spacing: 5px;
+}
+
+.pank_txt_1{
+  padding: 15px 0px;
+  letter-spacing: 0.5px;
+}
+.parents_7 {
+  position: relative;
+  width: 100%;
+  margin: 60px 0px;
+}
+
+.pnk_bk_img {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 0;
+}
+
+.section_1 {
+  position: absolute;
+  top: 90px;
+  left: 28%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 220px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  padding: 30px 30px !important;
+  padding: 10px;
+}
+
+.button_7 {
+  cursor: pointer;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  padding: 17px 0px;
+  margin-left: 10px;
+  font-size: 14px;
+  color:white;
+  border: 2px solid black;
+  border-radius: 34px;
+  background-color: black;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+}
+
+.button_7::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 150px;
+  height: 55px;
+  border-radius: inherit;
+  scale: 0;
+  z-index: -1;
+  background-color:#fff;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.button_7:hover::before {
+  scale: 2;
+}
+
+.button_7:hover {
+  color:black;
+  scale: 1.1;
+   transition: 10s ease ease-in;
+  box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
+}
+
+.button_7:active {
+  scale: 1;
+}
+
+
+/********/
+
+.parents_main_4 {
+  height: 160px;
+  overflow: hidden;
+  margin: 30px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.parents_main_child4 {
+  position: relative;
+  width: 100%;
+  height: inherit;
+}
+
+.Hire-6 {
+  position: absolute;
+  height: inherit;
+  animation: scroll-5 var(--duration, 15s) linear infinite;
+  left: 100%;
+  animation-delay: calc(var(--duration, 15s) / 7 * (7 - var(--k)) * -1);
+}
+
+
+@keyframes scroll-5 {
+  to {
+    left: -250px;
+  }
+}
+
+.Hire-6 > img {
+  height: inherit;
+  width: 190px;
+  padding: 0px 15px;
+  object-fit: fill;
+}
+.parents_main_4:hover .Hire-6 {
+  animation-play-state: paused;
+}
