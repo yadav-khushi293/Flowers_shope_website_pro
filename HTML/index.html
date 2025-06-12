@@ -296,5 +296,49 @@ All Flowers</a>
     <img src="../Flowerimg/bty_img.webp" class="blooms_img">
   </div>
 </div>
+
+
+<!--this 3D slider img-->
+    <p class="summer_text">shop by occasion</p>
+<div class="slider_3D">
+  <div class="carousel-container">
+    <div class="carousel" id="carousel">
+      <img src="../Flowerimg/R5549D_LOL_preset_proflowers-mx-tile-wide-sv-new.webp" alt="">
+      <img src="../Flowerimg/red_1.avif" alt="">
+      <img src="../Flowerimg/red_2.avif" alt="">
+      <img src="../Flowerimg/red_3.avif" alt="">
+      <img src="../Flowerimg/red_5.avif" alt="">
+      <img src="../Flowerimg/img_4 copy.avif" alt="">
+    </div>
+  
+
+    <div class="btns">
+      <button onclick="prev()">Prev</button>
+      <button onclick="next()">Next</button>
+    </div>
+  </div>
+  </div>
+  <script>
+    const imgs = document.querySelectorAll('.carousel img');
+    let current = 0;  
+
+    function update() {
+      imgs.forEach((img, i) => {
+        img.className = '';
+        if (i === current) img.classList.add('active');
+        else if (i === (current - 1 + imgs.length) % imgs.length) img.classList.add('prev');
+        else if (i === (current + 1) % imgs.length) img.classList.add('next');
+        else if (i === (current - 2 + imgs.length) % imgs.length) img.classList.add('prev2');
+        else if (i === (current + 2) % imgs.length) img.classList.add('next2');
+      });
+    }
+
+    function prev() { current = (current - 1 + imgs.length) % imgs.length; update(); }
+    function next() { current = (current + 1) % imgs.length; update(); }
+
+    update();
+  </script>
+
+  bsbs<br><br><br>
 </body>
 </html>
