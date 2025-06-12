@@ -382,7 +382,8 @@
    height: 370px;
    width: 606px;
    background-color: #f3eeea;
-   padding: 90px 0px;
+   padding: 100px 0px;
+   word-wrap: 2px;
 }
 
 .happiest{
