@@ -1122,3 +1122,32 @@
 .parents_main_5:hover .Hire-7 {
   animation-play-state: paused;
 }
+
+.parensts_10{
+  background-color:#f3eeea;
+  height: 700px;
+}
+.footer{
+  display: flex;
+}
+.proflowers-logo-1{
+  width: 250px;
+  margin: 40px 0px;
+  
+}
+
+.footer_text{
+  font-weight: bolder;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+li{
+  padding: 5px 0px;
+  color: #261f23;
+}
+li:hover{
+  text-decoration: underline;
+}
+.footer_text:hover{
+   text-decoration: underline;
+}
