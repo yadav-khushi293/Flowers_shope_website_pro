@@ -947,7 +947,7 @@
 }
 
 
-.V{
+.M{
       width: 230px;
       height: 220px;
       overflow: hidden;
@@ -955,13 +955,13 @@
      border-radius: 10px;
      border: 1px solid #f3e2d9;
     }
-    .V .Sweet_1{
+    .M .Sweet_1{
       height: inherit;
       width: inherit;
       transition: 0.5s ease;
     }
     
-    .V .Sweet_1:hover{
+    .M .Sweet_1:hover{
       transform: scale(1.1);
     }
   .Sweet_img{
