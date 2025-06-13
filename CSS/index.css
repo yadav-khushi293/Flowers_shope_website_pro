@@ -251,9 +251,9 @@
           margin: 15px 0px;
         }
        .buttonserch:hover{
-          background-color: #f4dacd;
+          background-color: #f0bea6;
           color: black;
-          border: 1px solid black;
+          border:transparent;
         }
 
         .parents_main2{
@@ -646,14 +646,14 @@
       justify-content: center; 
       margin: 20px 0px;
       align-items: center;    
-      height: 350px; 
+      height: 370px; 
       font-family: sans-serif;
       width: 100%;
     }
 
     .carousel-container {
       width: 300px;
-      height: 220px;
+      height: 240px;
       perspective: 1000px;
       position: relative;
     }
@@ -665,8 +665,9 @@
     }
     .carousel img {
       position: absolute;
-      width: 290px; 
-      height: 180px;
+      /*width: 270px; */
+      width: 290px;
+      height: 200px;
       border-radius: 10px;
       transition: all 0.5s ease;
       box-shadow: 0 10px 30px rgba(0,0,0,0.3);
@@ -1125,21 +1126,22 @@
 
 .parensts_10{
   background-color:#f3eeea;
-  height: 700px;
+  height: 850px;
 }
 .footer{
   display: flex;
+  justify-content: space-around;
 }
 .proflowers-logo-1{
   width: 250px;
-  margin: 40px 0px;
+  margin: 35px 40px;
   
 }
 
 .footer_text{
   font-weight: bolder;
   font-size: 16px;
-  padding: 10px 0px;
+  padding: 15px 0px;
 }
 li{
   padding: 5px 0px;
@@ -1147,7 +1149,108 @@ li{
 }
 li:hover{
   text-decoration: underline;
+  color: #880e4f;
 }
 .footer_text:hover{
    text-decoration: underline;
+    color: #880e4f;
 }
+
+.footer-form{
+  width: 260px;
+  height: 49px;
+  text-align: center;
+  margin: 0px;
+}
+.footer-form_1{
+   display: flex;
+  
+}
+
+.button_form{
+  width: 90px;
+  height: 49px;
+  background-color: #261f23;
+  border-radius: 2px;
+  font-weight: bolder;
+  font-size: 15px;
+  border: transparent;
+  color: #fff;
+}
+
+.tooltipexm_4{
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .tooltipexm_4 .tooltipexam_text-4 {
+      visibility: hidden;
+      width: 80px;
+   background: linear-gradient(45deg,#9b5aeb,#dc4596);
+      color: #fff;
+      text-align: center;
+      border-radius: 25px;
+      padding: 6px;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltipexm_4:hover .tooltipexam_text-4 {
+      visibility: visible;
+      opacity: 1;
+    }
+    .facebook_img{
+       width: 40px;
+       height: 40px;
+    }
+    
+    .tooltipexm_3{
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .tooltipexm_3 .tooltipexam_text-3 {
+      visibility: hidden;
+      width: 80px;
+    background: linear-gradient(45deg,#9b5aeb,#dc4596);
+      color: #fff;
+      text-align: center;
+      border-radius: 30px;
+      padding: 6px;
+      position: absolute;
+      z-index: 1;
+      bottom: 120%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltipexm_3:hover .tooltipexam_text-3 {
+      visibility: visible;
+      opacity: 1;
+    }
+    .tiktok_img{
+       width: 40px;
+       height: 35px;
+    }
+    .footerchilde_1{
+      display: flex;
+      margin: 20px 0px;
+      gap: 19px;
+    }
+  
+    .lasfooter_text{
+      text-align: center;
+       margin: 80px 0px;
+    }
+    span{
+      padding:0px 5px;
+    }
