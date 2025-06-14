@@ -187,3 +187,88 @@
       visibility: visible;
       opacity: 1;
     }
+
+    input,
+        input :focus {
+            border: 0 !important;
+            outline: none !important;
+            box-shadow: none !important;
+            font-size: 18px;
+            padding: 5px 0px;
+            margin-left: 10px;
+        }
+       
+        .fieldset-1{
+          width: 280px;
+          height: 62px;
+          border: 1px solid black;
+          border-radius: 5px;
+          background-color: #fff;
+        }
+        .fieldset-2{
+          width: 240px;
+          height: 62px;
+            border: 1px solid black;
+          border-radius: 5px;
+           background-color: #fff;
+        }
+         .star_2{
+          display: flex;
+          position: relative;
+         }
+        
+         .star_1{
+          display: flex;
+          gap: 10px;
+          padding:40px 180px;
+          width: 100%;
+          margin: auto;
+         }
+
+        .Calendar-img{
+          width: 48px;
+          height: 53px;
+          position: absolute;
+          top: 9px;
+          left: 225px;
+          border-radius: 5px;
+          border: 1px solid #b3b3b3;
+          background-color: #b3b3b3;
+        }
+        
+
+        legend{
+          color:#353837;
+          margin: 0px 11px;
+        }
+        .star_3{
+          font-family: "Playfair Display", serif;
+          font-style: italic;
+          font-size: 25px;
+          padding: 10px 0px;
+          font-optical-sizing: auto;
+          color: #1c181c;
+        }
+        .shopnow{
+          border: 1px solid black;
+          width: 140px;
+          text-align: center;
+          padding: 16px 0px;
+          background-color: black;
+          color: #fff;
+          font-weight:550;
+          height: 53px;
+          margin: 8px 30px;
+          border-radius: 4px;
+        }
+      
+        .shopnow:hover{
+            background-color: #f3eeea;
+            color: black;
+            transition: all 0.3s ease-in-out;
+
+          }
+        .parents2{
+          background-color:#e4e1de;
+          height: 140px;
+        }
