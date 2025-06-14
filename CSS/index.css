@@ -24,6 +24,9 @@
    
     .text-3:hover{
       text-decoration: underline;
+      scale:1.1;
+      transition: all 0.5s ease-in-out;
+      
     }
     .top-banner a {
       color: black;
@@ -73,6 +76,34 @@
      margin: 10px 0px;
   }
 
+  .tooltipexm_41{
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+   .tooltipexm_41 .tooltipexam_text-41 {
+      visibility: hidden;
+      width:80px;
+   background: linear-gradient(45deg,#9b5aeb,#dc4596);
+      color: #fff;
+      text-align: center;
+      border-radius: 25px;
+      font-size: 13px;
+      font-weight: normal;
+      padding: 6px;
+      position: absolute;
+      z-index: 1;
+      bottom: 110%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltipexm_41:hover .tooltipexam_text-41 {
+      visibility: visible;
+      opacity: 1;
+    }
 
   .dropdown {
       position: relative;
@@ -102,7 +133,7 @@
 
     /* Hover effect on item */
     .dropdown-content a:hover {
-        background-color: #f4dacd;
+        background-color: #f2c8b2;
 
     }
 
