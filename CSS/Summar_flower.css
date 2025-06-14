@@ -272,3 +272,26 @@
           background-color:#e4e1de;
           height: 140px;
         }
+
+        .parents_5{
+          margin: auto;
+          width: 90%;
+          padding: 20px 0px;
+          height: auto;
+        }
+
+        .Summer_text{
+          font-size: 35px;
+          padding: 10px 0px;
+          font-weight: 500;
+          word-wrap: 5px;
+        }
+
+        .Summer_text_2{
+          word-wrap: 5px;
+          color:#0d0d0e;
+          
+        }
+        p{
+          padding: 3px 0;
+        }
