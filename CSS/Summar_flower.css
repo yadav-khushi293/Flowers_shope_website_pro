@@ -371,3 +371,60 @@ input[type="checkbox"] {
   margin: 40px 50px;
   flex-wrap: wrap;
 }
+
+
+
+
+
+ .A{
+     width: 300px;
+  height: 295px;
+      overflow: hidden;
+     object-fit:fill;
+     border-radius: 10px;
+     border: 1px solid #f6ddcf;
+    }
+    .A .summer_img{
+      height: inherit;
+      width: inherit;
+      transition: 0.5s ease;
+    }
+    
+     .A .summer_img:hover{
+      transform: scale(1.1);
+    }
+
+     .A:hover{
+
+     transition: all 1s ease-in-out;
+  border-radius: 50%;
+   border: 1px solid black;
+    }
+
+    .parents_7{
+      display: flex;
+      gap: 70px;
+      justify-content:center;
+    }
+    .summar_text{
+      text-align: center;
+      padding: 14px 0px;
+      font-size: 18px;
+      color: #1a1b20;
+    }
+    .summar_text:hover{
+      text-decoration: underline;
+      color: #880e4f;
+    }
+
+    .summar_text_1:hover{
+      text-decoration: underline;
+      color: #880e4f;
+    }
+
+    .summar_text_1{
+      text-align: center;
+       font-size: 18px;
+      color: #1a1b20;
+      font-weight: bold;
+    }
