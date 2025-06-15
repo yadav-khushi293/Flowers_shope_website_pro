@@ -269,11 +269,24 @@
           padding: 16px 0px;
         }
 
-        .summer_img{
-          width: 490px;
-          height: 470px;
-         border: 1px solid #f0bea6;
-        }
+        .Z{
+     
+      overflow: hidden;
+     object-fit: fill;
+     border-radius: 10px;
+     width: 490px;
+      height: 470px;
+      border: 1px solid #f0bea6;
+    }
+    .Z .summer_img{
+      height: inherit;
+      width: inherit;
+      transition: 0.5s ease;
+    }
+    
+     .Z .summer_img:hover{
+      transform: scale(1.1);
+    }
 
         .parents_2{
           display: flex;
@@ -316,5 +329,179 @@
         .p4:hover{
           text-decoration:underline;
         }
+        .p10{
+          font-weight: bold;
+          color: blue;
+          font-size: 18px;
+        }
         
-       
+       .parents_5{
+        margin: auto;
+        width: 100%;
+        padding: 40px 40px;
+        background-color: #f4dacd;
+       }
+
+       .p5{
+         font-family: "Playfair Display", serif;
+          font-style: italic;
+          font-size: 35px;
+          padding-bottom: 10px;
+       }
+
+       .parents-6{
+        display: flex;
+        justify-content: space-around;
+        font-size: 17px;
+        font-weight: bold;
+        gap: 20px;
+        padding: 7px 0px;
+        text-decoration: underline;
+        text-transform: uppercase;
+       }
+       .p7{
+        font-size: 30px;
+        padding: 20px 0px;
+        word-spacing: 4px;
+       }
+       .p8{
+        color: #6f6554;
+       }
+       .p7:hover{
+        text-decoration:underline;
+       }
+       p{
+        padding: 2px 0px;
+       }
+
+       .parensts_10{
+  background-color:#f3eeea;
+  height: 850px;
+  margin-top: 50px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+}
+.proflowers-logo-1{
+  width: 250px;
+  margin: 35px 40px;
+  
+}
+
+.footer_text{
+  font-weight: bolder;
+  font-size: 16px;
+  padding: 15px 0px;
+}
+li{
+  padding: 5px 0px;
+  color: #261f23;
+}
+li:hover{
+  text-decoration: underline;
+  color: #880e4f;
+}
+.footer_text:hover{
+   text-decoration: underline;
+    color: #880e4f;
+}
+
+.footer-form{
+  width: 260px;
+  height: 49px;
+  text-align: center;
+  margin: 0px;
+}
+.footer-form_1{
+   display: flex;
+  
+}
+
+.button_form{
+  width: 90px;
+  height: 49px;
+  background-color: #261f23;
+  border-radius: 2px;
+  font-weight: bolder;
+  font-size: 15px;
+  border: transparent;
+  color: #fff;
+}
+
+.tooltipexm_4{
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .tooltipexm_4 .tooltipexam_text-4 {
+      visibility: hidden;
+      width: 80px;
+   background: linear-gradient(45deg,#9b5aeb,#dc4596);
+      color: #fff;
+      text-align: center;
+      border-radius: 25px;
+      padding: 6px;
+      position: absolute;
+      z-index: 1;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltipexm_4:hover .tooltipexam_text-4 {
+      visibility: visible;
+      opacity: 1;
+    }
+    .facebook_img{
+       width: 40px;
+       height: 40px;
+    }
+    
+    .tooltipexm_3{
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .tooltipexm_3 .tooltipexam_text-3 {
+      visibility: hidden;
+      width: 80px;
+    background: linear-gradient(45deg,#9b5aeb,#dc4596);
+      color: #fff;
+      text-align: center;
+      border-radius: 30px;
+      padding: 6px;
+      position: absolute;
+      z-index: 1;
+      bottom: 120%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltipexm_3:hover .tooltipexam_text-3 {
+      visibility: visible;
+      opacity: 1;
+    }
+    .tiktok_img{
+       width: 40px;
+       height: 35px;
+    }
+    .footerchilde_1{
+      display: flex;
+      margin: 20px 0px;
+      gap: 19px;
+    }
+  
+    .lasfooter_text{
+      text-align: center;
+       margin: 80px 0px;
+    }
+    span{
+      padding:0px 5px;
+    }
