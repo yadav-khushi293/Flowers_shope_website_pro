@@ -256,7 +256,7 @@
         .A{
           width: 160px;
           height: 55px;
-          border: 2px solid gray;
+          border: 2px solid rgb(177, 176, 176);
           text-align: center;
           padding: 16px 0px;
         }
@@ -317,3 +317,4 @@
           text-decoration:underline;
         }
         
+       
