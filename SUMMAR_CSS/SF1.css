@@ -548,7 +548,7 @@ li:hover{
 }
 .griddiv {
     display: grid;
-    gap: 10px;
+    gap: 14px;
     grid-template-columns: repeat(2, 1fr);
     margin: 20px 0px;
 }
@@ -587,7 +587,7 @@ legend {
     gap: 20px;
 }
 .buttonserch {
-    width: 430px;
+    width: 425px;
     height: 67px;
     text-align: center;
     font-size: 22px;
