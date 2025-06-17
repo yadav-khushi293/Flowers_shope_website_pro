@@ -1335,7 +1335,7 @@ li:hover{
 }
 .section_1,.section_2{
   height: 253px;
-  top:66px;
+  top:60px;
 }
 .pnk_text,.bpl_text {
   font-size: 40px;
@@ -1522,7 +1522,7 @@ span {
      .btns {
       position: absolute; 
       bottom: -35px;
-      width: 85%; 
+      width: 90%; 
 
     }
     
