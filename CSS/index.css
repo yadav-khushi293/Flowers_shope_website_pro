@@ -1322,7 +1322,7 @@ li:hover{
 .happiest_3,.blooms_3 {
     border: 2px solid #f3eeea;
    height: 380px;
-    width: 705px;
+    width: 731px;
     background-color: #eee1d6;
     padding: 100px 0px;
     word-wrap: 2px;
@@ -1478,10 +1478,10 @@ span {
     font-size: 20px;
 }
 .Calendar-img {
-        width: 55px;
-        height: 58px;
-        top: 9px;
-        left: 252px;
+        width: 57px;
+        height: 60px;
+        top: 7px;
+        left: 250px;
     }
 
  }
