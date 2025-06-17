@@ -754,7 +754,7 @@ legend{
     word-wrap: 5px;
 }
 p{
-  font-size:18px;
+  font-size:20px;
 }
 
 .parents_6 {
@@ -792,5 +792,34 @@ p{
     gap: 5px;
 }
 
+.proflowers-logo-1 {
+    width: 298px;
+    margin: 45px 40px;
+}
 
+.footer_text {
+    font-weight: bolder;
+    font-size: 22px;
+    padding: 15px 0px;
+}
+
+li {
+    padding: 6px 0px;
+    font-size: 20px;
+    color: #261f23;
+}
+.footerchilde_1 {
+    display: flex
+;
+    margin: 26px 0px;
+    gap: 22px;
+}
+.parensts_10 {
+    background-color: #f3eeea;
+    height: 1011px;
+}
+span {
+    padding: 0px 5px;
+    font-size: 20px;
+}
      }
