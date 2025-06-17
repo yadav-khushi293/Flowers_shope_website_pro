@@ -1486,14 +1486,14 @@ span {
     }
     .pnk_bk_img,.bpl_bk_img {
     width: 100%;
-    height: 380px;
+    height: 370px;
     display: block;
     position: relative;
     z-index: 0;
 }
 
  .carousel img {
-      width: 400px;
+      width: 380px;
       height: 250px;
     }
 
@@ -1509,7 +1509,7 @@ span {
     }
 
     .carousel-container {
-      width: 300px;
+      width: 400px;
       height:299px;
       perspective: 1000px;
       position: relative;
