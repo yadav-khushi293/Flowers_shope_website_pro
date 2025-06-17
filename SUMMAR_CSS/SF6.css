@@ -534,44 +534,46 @@ li:hover{
     }
 
     .p1, .p3,.p4 {
-    font-size: 25px;
+    font-size: 18px;
     }
 
     .p2 {
-    font-size: 35px;
+    font-size: 25px;
     }
     .parents_2 {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 160px;
     margin: 60px 0px;
 }
 .griddiv {
     display: grid;
-    gap: 10px;
+    gap: 15px;
     grid-template-columns: repeat(2, 1fr);
     margin: 20px 0px;
 }
 
     .A {
-    width: 220px;
-    height: 85px;
-    padding: 26px 0px;
+    width: 210px;
+    height: 80px;
+    padding: 25px 0px;
     font-size: 25px;
+     border: 2px solid black;
 }
 .B{
-   width: 220px;
-    height: 85px;
+   width: 210px;
+    height: 80px;
      padding: 25px 0px;
      font-size: 25px;
+      border: 2px solid rgb(158, 158, 158);
 }
 
 .fieldset-1,.fieldset-2 {
-    width: 450px;
-    height: 78px;
+    width: 430px;
+    height: 75px;
 }
 input, input :focus {
-    font-size: 25px;
+    font-size: 21px;
     padding: 7px 0px;
     margin-left: 21px;
 }
@@ -585,7 +587,7 @@ legend {
     gap: 20px;
 }
 .buttonserch {
-    width: 450px;
+    width: 428px;
     height: 67px;
     text-align: center;
     font-size: 22px;
@@ -651,4 +653,7 @@ li {
 .lasfooter_text {
     font-size: 20px;
 }
+ .dropdown-content{
+      font-size: 18px;
+    }
       }
