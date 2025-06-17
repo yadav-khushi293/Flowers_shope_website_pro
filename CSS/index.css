@@ -1286,3 +1286,168 @@ li:hover{
     span{
       padding:0px 5px;
     }
+
+    
+ @media (min-width: 1366px){
+
+
+
+  .A{
+      width: 290px;
+      height: 270px;
+    }
+    
+     .B,.B1{
+      font-size: 21px;
+}
+.C,.C1,.D,.D1{
+  font-size: 21px;
+}
+
+.summer_img {
+  margin: 24px 0px;
+  gap: 10px;
+}
+
+.summer_text{
+  font-size: 54px;
+
+}
+
+.happiest_img,.blooms_img {
+    width: 735px;
+    height: 380px;
+}
+
+.happiest_3,.blooms_3 {
+    border: 2px solid #f3eeea;
+   height: 380px;
+    width: 705px;
+    background-color: #eee1d6;
+    padding: 100px 0px;
+    word-wrap: 2px;
+}
+.happiest_text,.blooms_text{
+  font-size: 41px;
+}
+.happiest_text-1,.blooms_text-1{
+  font-size: 22px;
+}
+.section_1,.section_2{
+  height: 253px;
+}
+.pnk_text,.bpl_text {
+  font-size: 40px;
+}
+.pank_txt_1,.bpl_txt_1{
+  font-size: 19px;
+}
+.button_7 {
+  padding: 15px 0px;
+}
+.button_3,.button_5{
+      margin-left: 259px;
+}
+  .button_4 {
+    margin-left: 632px;
+  }
+  
+  .button_8{
+    margin-left: 632px;
+    padding: 15px 0px;
+  }
+.button_2{
+ margin-left: 632px;
+}
+   
+.button_6 {
+    margin-left: 632px;
+}
+.Farther_img{
+  gap: 10px;
+}
+.modern_img{
+  gap: 10px;
+}
+.Sweet_img{
+  gap: 10px;
+}
+
+   .K{
+       width: 290px;
+      height: 270px;
+    }
+
+    .V{
+       width: 290px;
+      height: 270px;
+    }
+    .M{
+       width: 290px;
+      height: 270px;
+    }
+    .parents_main_4 {
+  height: 180px;
+}
+.Hire-6 > img {
+  height: inherit;
+  width: 230px;
+  padding: 0px 15px;
+  object-fit: fill;
+}
+
+  .parents_main_5 {
+  height: 180px;
+}
+.Hire-7 > img {
+  height: inherit;
+  width: 230px;
+  padding: 0px 15px;
+  object-fit: fill;
+}
+
+ .fieldset-1{
+          width: 330px;
+          height: 65px;
+      
+        }
+        .fieldset-2{
+          width: 300px;
+          height: 65px;
+        
+        }
+
+        .Calendar-img {
+    width: 48px;
+    height: 57px;
+    top: 9px;
+    left: 252px;
+}
+.find{
+font-size: 30px;
+}
+.star{
+  font-size: 19px;
+}
+
+.position-1 {
+    top: 20px;
+    left: 50%;
+    z-index: 10;
+    width: 52%;
+    height: 273px;
+    padding: 24px 39px;
+}
+ 
+.button-1 {
+    width: 137px;
+    height: 40px;
+    font-size: 21px;
+}
+.Flowerimg-1{
+  font-size: 15px;
+}
+
+
+
+ }
