@@ -534,11 +534,11 @@ li:hover{
     }
 
     .p1, .p3,.p4 {
-    font-size: 25px;
+    font-size: 22px;
     }
 
     .p2 {
-    font-size: 35px;
+    font-size: 30px;
     }
     .parents_2 {
     display: flex;
@@ -555,13 +555,13 @@ li:hover{
 
     .A {
     width: 220px;
-    height: 85px;
+    height: 80px;
     padding: 26px 0px;
     font-size: 25px;
 }
 .B{
    width: 220px;
-    height: 85px;
+    height: 80px;
      padding: 25px 0px;
      font-size: 25px;
 }
