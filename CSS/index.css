@@ -592,9 +592,9 @@
 
 
 .blooms_img{
-  width: 620px;
+  width: 100%px;
   height: 370px;
-  object-fit:cover;
+  object-fit:inherit;
   
 }
 .blooms_3{
@@ -1315,7 +1315,6 @@ li:hover{
 }
 
 .happiest_img,.blooms_img {
-    width: 770px;
     height: 390px;
 }
 
