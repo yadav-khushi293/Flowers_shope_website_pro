@@ -403,13 +403,15 @@
 }
 
 .happiest_img{
-  width: 100%;
+ width: 620px;
   height: 370px;
-  object-fit:inherit;
+  object-fit:fill;
+  
   
 }
 .happiest_3{
   border: 2px solid #f3eeea;
+  width: 605px;
    height: 370px;
    background-color: #eee1d6;
    padding: 100px 0px;
@@ -591,9 +593,9 @@
 
 
 .blooms_img{
-  width: 100%;
+  width: 620px;
   height: 370px;
-  object-fit:inherit;
+  object-fit:fill;
   
 }
 .blooms_3{
@@ -1286,246 +1288,175 @@ li:hover{
       padding:0px 5px;
     }
 
-    
- @media (min-width: 1366px){
+    @media (min-width: 1446px){
 
 
 
-  .A{
-      width: 290px;
+
+    .A,.K,.V,.M{
+      width: 300px;
       height: 270px;
     }
-    
-     .B,.B1{
-      font-size: 21px;
-}
-.C,.C1,.D,.D1{
-  font-size: 21px;
-}
 
-.summer_img {
-  margin: 24px 0px;
-  gap: 10px;
-}
-
-.summer_text{
-  font-size: 54px;
-
-}
-
-.happiest_img,.blooms_img {
-    height: 390px;
-}
-
-.happiest_3,.blooms_3 {
-    border: 2px solid #f3eeea;
-   height: 390px;
-    width: 760px;
-    background-color: #eee1d6;
-    padding: 100px 0px;
-    word-wrap: 2px;
-}
-.happiest_text,.blooms_text{
-  font-size: 41px;
-}
-.happiest_text-1,.blooms_text-1{
-  font-size: 22px;
-}
-.section_1,.section_2{
-  height: 253px;
-  top:55px;
-}
-.pnk_text,.bpl_text {
-  font-size: 40px;
-}
-.pank_txt_1,.bpl_txt_1{
-  font-size: 19px;
-}
-.button_7 {
-  padding: 15px 0px;
-}
-.button_3,.button_5{
-      margin-left: 259px;
-}
-  .button_4 {
-    margin-left: 640px;
+    .summer_img{
+    gap:0px;
+    margin: 20px 0px;
   }
-  
-  .button_8{
-    margin-left: 640px;
-    padding: 15px 0px;
+
+  .summer_text{
+    font-size: 48px;
   }
-.button_2{
- margin-left: 640px;
+   
+  .B,.B1,.C,.C1,.D,.D1{
+    font-size: 20px;
+  }
+
+  .Farther_img,.modern_img,.Sweet_img{
+    gap: 0px;
+    margin: 30px 0px;
+
+  }
+
+  .button_2,.button_4,.button_6,.button_8 {
+  margin-left: 680px;
 }
    
-.button_6 {
-    margin-left: 640px;
-}
-.Farther_img{
-  gap: 10px;
-}
-.modern_img{
-  gap: 10px;
-}
-.Sweet_img{
-  gap: 10px;
+  .parents_main_5,.parents_main_4{
+  height: 190px;
+
 }
 
-   .K{
-       width: 290px;
-      height: 270px;
-    }
 
-    .V{
-       width: 290px;
-      height: 270px;
-    }
-    .M{
-       width: 290px;
-      height: 270px;
-    }
-    .parents_main_4 {
-  height: 180px;
-}
-.Hire-6 > img {
-  height: inherit;
+
+.Hire-7 > img,.Hire-6 > img {
   width: 230px;
-  padding: 0px 15px;
-  object-fit: fill;
 }
 
-  .parents_main_5 {
-  height: 180px;
+.section_2 {
+  width: 50%;
+  height: 270px;
+
 }
-.Hire-7 > img {
-  height: inherit;
-  width: 230px;
-  padding: 0px 15px;
-  object-fit: fill;
+.section_1{
+  width: 50%;
+  height: 270px;
 }
 
+.bpl_text,.pnk_text{
+
+  font-size: 40px;
+  word-spacing: 5px;
+}
+
+.bpl_txt_1,.pank_txt_1{
+  padding: 18px 0px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+
+.happiest_img,.blooms_img{
+ width: 770px;
+  height: 380px;
+  object-fit:fill;
+  
+  
+}
+.happiest_3,.blooms_3{
+  border: 2px solid #f3eeea;
+  width: 762px;
+   height: 380px;
+   background-color: #eee1d6;
+   padding: 100px 0px;
+   word-wrap: 2px;
+}
+
+.happiest{
+  display: flex;
+  margin-top: 70px;
+}
+
+.button_3 {
+ 
+  width: 200px;
+  height: 55px;
+ 
+}
+.happiest_text,.blooms_text{
+  font-size: 43px;
+}
+.happiest_text-1,.blooms_text-1{
+  font-size: 19px;
+}
+.button_3{
+  margin-left: 300px;
+}
+.button_5{
+  margin-left: 270px;
+}
  .fieldset-1{
-          width: 330px;
+          width: 320px;
           height: 65px;
-      
         }
         .fieldset-2{
           width: 300px;
           height: 65px;
-        
         }
 
-        .Calendar-img {
-    width: 48px;
-    height: 57px;
-    top: 9px;
-    left: 252px;
-}
-.find{
-font-size: 30px;
-}
-.star{
-  font-size: 19px;
+         .Calendar-img{
+          width: 55px;
+          height: 58px;
+          top: 7px;
+          left: 257px;
+        }
+        .find{
+          font-size: 35px;
+        }
+       .star{
+        font-size: 18px;
+       }
+
+         .position-1 {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  width: 49%;
+  height: 270px;
+  padding: 20px 40px;
 }
 
-.position-1 {
-    top: 20px;
-    left: 50%;
-    z-index: 10;
-    width: 51%;
-    height: 273px;
-    padding: 24px 39px;
-}
- 
 .button-1 {
-    width: 137px;
+    width: 140px;
     height: 40px;
-    font-size: 21px;
-}
-.Flowerimg-1{
-  font-size: 15px;
-}
-.proflowers-logo-1 {
-    width: 298px;
-    margin: 45px 40px;
-}
-
-.footer_text {
-    font-weight: bolder;
-    font-size: 22px;
-    padding: 15px 0px;
-}
-
-li {
-    padding: 6px 0px;
     font-size: 20px;
-    color: #261f23;
+    background-color:#fff;
+    border: transparent;
+    color: #252727;
 }
-.footerchilde_1 {
-    display: flex
-;
-    margin: 26px 0px;
-    gap: 22px;
-}
-.parensts_10 {
-    background-color: #f3eeea;
-    height: 1011px;
-}
-span {
-    padding: 0px 5px;
-    font-size: 20px;
-}
-.Calendar-img {
-        width: 57px;
-        height: 60px;
-        top: 7px;
-        left: 250px;
-    }
-    .pnk_bk_img,.bpl_bk_img {
-    width: 100%;
-    height: 370px;
-    display: block;
-    position: relative;
-    z-index: 0;
-}
+ .dropdown-content{
+  font-size: 16px;
+ }
 
- .carousel img {
-      width: 380px;
-      height: 250px;
-    }
+ .proflowers-logo-1{
+  width: 300px;
+ }
+ .footer_text{
+  font-size: 20px;
+ }
+ li{
+  font-size: 19px;
+ }
+ .parensts_10{
+  height: 940px;
+ }
+ span{
+  font-size: 19px;
+ }
 
-    .slider_3D {
-      background: linear-gradient(to right,#f8c2e0, #aae0d0,#e0c3fc);
-      display: flex; 
-      justify-content: center; 
-      margin: 20px 0px;
-      align-items: center;    
-      height: 420px; 
-      font-family: sans-serif;
-      width: 100%;
+ .footerchilde_1{
+  margin: 20px 0xp;
+  gap: 19px;
+ }
     }
-
-    .carousel-container {
-      width: 400px;
-      height:299px;
-      perspective: 1000px;
-      position: relative;
-    }
-
-    .carousel {
-      width: 100%; height: 100%;
-    }
-
-     .btns {
-      position: absolute; 
-      bottom: -35px;
-      width: 90%; 
-
-    }
-    
-    .dropdown-content{
-      font-size: 18px;
-    }
-  }
-   
