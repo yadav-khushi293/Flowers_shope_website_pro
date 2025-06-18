@@ -1460,3 +1460,7 @@ li:hover{
   gap: 19px;
  }
     }
+
+     @media (min-width: 481px) and (max-width: 840px){
+      
+     }
