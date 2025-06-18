@@ -1463,4 +1463,153 @@ li:hover{
 
      @media (min-width: 481px) and (max-width: 840px){
       
+      .happiest_img,.blooms_img {
+    width: 438px;
+    height: 270px;
+    object-fit: fill;
+}
+.button-1 {
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+}
+.find {
+    font-size: 25px;
+}
+
+.button_3,.button_5 {
+    width: 160px;
+    height: 48px;
+    padding: 15px 0px;
+    margin: 10px 0px;
+    margin-left: 120px;
+    font-size: 13px;
+   
+}
+.happiest_text,.blooms_text{
+  font-size: 27px;
+}
+
+.happiest_text-1,.blooms_text-1 {
+    font-size: 14px;
+    padding: 15px 0px;
+}
+.section_1 {
+    position: absolute;
+    top: 36px;
+    left: 28%;
+    width: 50%;
+    height: 188px;
+}
+.section_2 {
+ position: absolute;
+    top: 36px; 
+    width: 50%;
+    height: 188px;
+}
+.happiest_3,.blooms_3 {
+    width: 400px;
+    height: 270px;
+    padding:60px 0px;
+    word-wrap: 2px;
+}
+.pnk_text,.bpl_text{
+  font-size: 25px;
+}
+.pank_txt_1,.bpl_text-1 {
+    padding: 12px 0px;
+    font-size: 14px;
+}
+
+.button_7 {
+    width: 130px;
+    height: 42px;
+    padding: 13px 0px;
+    margin-left:0px;
+    font-size: 12px;
+}
+.summer_img,.Farther_img,.modern_img,.Sweet_img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items:center;
+    align-content: center;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+.A,.K,.V,.M{
+  width: 300px;
+  height:270px;
+}
+
+ .parents_main_5,.parents_main_4{
+  height: 120px;
+
+}
+
+
+
+.Hire-7 > img,.Hire-6 > img {
+  width: 160px;
+}
+
+.button_2,.button_4,.button_6 , .button_8{
+  margin-left: 324px;
+  width: 180px;
+  font-size: 15px;
+} 
+
+.button_6 {
+  margin-left: 324px;
+  width: 180px;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.footer{
+  gap: 27px;
+  padding: 0px 30px;
+}
+.footer-form {
+    width: 185px;
+    height: 45px;
+    font-size: 17px;
+}
+.button_form {
+    width: 88px;
+    height: 44px;
+}
+li{
+  font-size: 14px;
+}
+.footer_text {
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.footerchilde_1 {
+    margin: 15px 0px;
+    gap: 15px;
+}
+.lasfooter_text {
+    text-align: center;
+    margin: 40px 28px;
+}
+span{
+  font-size: 14px;
+}
+.parensts_10 {
+    height: 740px;
+}
+
+.position-1 {
+    width: 75%;
+    height: 260px;
+   
+}
+.summer_text{
+  font-size: 40px;
+}
+
      }
