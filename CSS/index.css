@@ -1696,15 +1696,11 @@ span{
 }
 .fieldset-2{
       height: 54px;
-      width:100px;
+      width:170px;
 }
 
  .Calendar-img{
-          height: 44px;
-          width: 42px;
-          position: absolute;
-          top: 9px;
-          left:192px !important;
+  
           display: none;
         }
         
@@ -1714,7 +1710,7 @@ input, input :focus {
 }
 
 .buttonserch {
-    width: 272px;
+   width: 170px;
     height: 43px;
     font-size: 18px;
     margin: 13px 0px;
