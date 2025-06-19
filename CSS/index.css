@@ -1631,9 +1631,7 @@ span{
 .blooms ,.happiest{
   display:flex;
   flex-wrap: wrap;
-  width: 60%;
-  margin:auto;
-  padding-top:30px ;
+
 }
 .text-3,.button-1 {
   display: none;
