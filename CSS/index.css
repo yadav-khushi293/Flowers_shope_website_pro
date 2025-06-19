@@ -1625,7 +1625,7 @@ span{
     gap: 20px;
     padding: 20px 0px;
     margin: auto;
-    width: 98%;
+    width: 90%;
 }
 
 .blooms ,.happiest{
@@ -1650,8 +1650,10 @@ span{
     justify-content: center;
     align-items: center;
     gap: 0px;
-   margin: 1px 0px;
-}
+     margin: auto;
+    width: 90%;
+    }
+
 
     .search {
         width: 25px;
@@ -1659,7 +1661,7 @@ span{
     }
 
 .Flowerimg {
-    width: 181px;
+    width: 150px;
     height: 30px;
     margin: 0px;
 }
@@ -1686,14 +1688,15 @@ span{
     padding: 13px 20px;
 }
 
-.fieldset-1 {
-    width: 262px;
+.fieldset-1>input {
+    width: 170px;
     height: 54px;
     border: 1px solid black;
     border-radius: 5px;
 }
 .fieldset-2{
       height: 54px;
+      width:100px;
 }
 
  .Calendar-img{
@@ -1701,7 +1704,7 @@ span{
           width: 42px;
           position: absolute;
           top: 9px;
-          left: 225px;
+          left:192px !important;
         }
         
 input, input :focus {
@@ -1839,5 +1842,11 @@ li,.footer_text{
 .footer{
   justify-content: center;
 }
-
-      }
+.top-banner {
+  justify-content: center;
+  padding: 0px 20px;
+  margin: auto;
+  font-size: 11px;
+  width: 100%;
+    }
+  }
