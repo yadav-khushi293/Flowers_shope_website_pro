@@ -912,5 +912,144 @@ span{
     margin: 35px 25px;
 }
 
+}
+@media (max-width: 420px){
 
-        }
+
+    .top-banner {
+  justify-content: center;
+  padding: 0px 10px;
+  gap: 10px;
+  margin: auto;
+  font-size: 13px;
+  width: 100%;
+    }
+    .text-3,.button-1 {
+  display: none;
+}
+.nav2-img>.search,.parents_wine_menu_list,.parents-1{
+  display: none;
+}
+.Flowerimg {
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+}
+.Flowerimg-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 34px;
+}
+ .search {
+        width: 25px;
+        height: 23px;
+    }
+.nav_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+     margin: auto;
+    width: 90%;
+    }
+    .star_1 {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+    width: 100%;
+    margin: auto;
+}
+.parents2{
+  height: auto;
+}
+.fieldset-1 {
+    width: 323px;
+    height: 62px;
+}
+.fieldset-2 {
+    width: 323px;
+    height: 62px;
+}
+.Calendar-img {
+  display: none;
+}
+.shopnow {
+    width: 323px;
+    padding: 16px 0px;
+    font-size: 20px;
+}
+.star_3{
+  font-size: 38px;
+}
+.parents_6 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin: 30px 20px;
+    flex-wrap: wrap;
+}
+.button_9 
+{
+width: 172px;
+height: 40px;
+padding: 8px 10px;
+}
+
+.parents_7,.parents_8 {
+    display: flex;
+    overflow: scroll;
+    gap: 70px;
+    justify-content:start;
+    padding-top: 30px;
+    margin: auto;
+    scrollbar-width: none;
+    width: 90%;
+}
+.parents_8 {
+ display: flex;
+    overflow: scroll;
+    gap: 70px;
+    justify-content:start;
+    scrollbar-width: none;
+    padding: 50px 0;
+    margin: auto;
+    width: 90%;
+}
+.parents_9{
+  display: flex;
+    overflow: scroll;
+    gap: 70px;
+    justify-content:start;
+    scrollbar-width: none;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 90%;
+}
+li,.footer_text{
+  display: none;
+}
+.proflowers-logo-1 {
+    width: 250px;
+    
+    margin: 0px 50px;
+}
+
+.footer-form_1{
+  display: none;
+}
+.parensts_10 {
+    background-color: #f3eeea;
+    height: 250px;
+    padding: 30px 0px;
+}
+.footer{
+  justify-content: center;
+}
+.lasfooter_text {
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 12px;
+}
+  }
