@@ -1625,7 +1625,7 @@ span{
     gap: 20px;
     padding: 20px 0px;
     margin: auto;
-    width: 90%;
+    width: 98%;
 }
 
 .blooms ,.happiest{
@@ -1692,7 +1692,7 @@ span{
       height: 54px;
 }
 .Calendar-img{
-  height: 40px;
+  height: 44px;
   width: 42px;
 }
 input, input :focus {
