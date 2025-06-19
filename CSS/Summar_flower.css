@@ -998,7 +998,9 @@ span{
 }
 .button_9 
 {
-width: 176px;
+width: 172px;
+height: 40px;
+padding: 12px 10px;
 }
 
 .parents_7,.parents_8 {
