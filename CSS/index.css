@@ -1688,15 +1688,17 @@ span{
     padding: 13px 20px;
 }
 
-.fieldset-1>input {
+.fieldset-1 {
     width: 170px;
     height: 54px;
     border: 1px solid black;
     border-radius: 5px;
+    display: none;
 }
 .fieldset-2{
       height: 54px;
       width:100px;
+      display: none;
 }
 
  .Calendar-img{
@@ -1705,6 +1707,7 @@ span{
           position: absolute;
           top: 9px;
           left:192px !important;
+          display: none;
         }
         
 input, input :focus {
@@ -1813,7 +1816,8 @@ li,.footer_text{
 }
 .proflowers-logo-1 {
     width: 250px;
-    margin: 0px 87px;
+
+    margin: 0px 20px;
 }
 
 .footer-form_1{
@@ -1824,7 +1828,7 @@ li,.footer_text{
     justify-content: center;
     align-items: center;
     margin: 20px 0px;
-    gap: 36px;
+    gap: 10px;
 }
 .lasfooter_text {
     text-align: center;
