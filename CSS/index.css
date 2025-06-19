@@ -1819,8 +1819,8 @@ li,.footer_text{
 }
 .proflowers-logo-1 {
     width: 250px;
-
-    margin: 0px 20px;
+    
+    margin: 0px 40px;
 }
 
 .footer-form_1{
@@ -1831,7 +1831,7 @@ li,.footer_text{
     justify-content: center;
     align-items: center;
     margin: 20px 0px;
-    gap: 10px;
+    gap: 15px;
 }
 .lasfooter_text {
     text-align: center;
