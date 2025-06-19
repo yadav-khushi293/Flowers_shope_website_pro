@@ -1618,18 +1618,20 @@ span{
       @media (max-width: 430px){
 
 
-      .summer_img, .Farther_img ,.Farther_img,.Sweet_img ,.modern_img{
+  .summer_img, .Farther_img ,.Farther_img,.Sweet_img ,.modern_img{
     display: flex;
     overflow: scroll;
     justify-content: space-evenly;
     gap: 20px;
-    margin: 20px 0px;
+    padding: 20px 0px;
+    margin: auto;
+    width: 90%;
 }
 
 .blooms ,.happiest{
   display:flex;
   overflow: scroll;
-  width: 90%;
+  width: 99%;
   margin:auto;
   padding-top:30px ;
 }
