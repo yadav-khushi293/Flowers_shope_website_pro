@@ -1843,6 +1843,7 @@ li,.footer_text{
 .top-banner {
   justify-content: center;
   padding: 0px 10px;
+  gap: 10px;
   margin: auto;
   font-size: 13px;
   width: 100%;
