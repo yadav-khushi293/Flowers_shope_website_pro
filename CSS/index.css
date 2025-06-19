@@ -1615,7 +1615,7 @@ span{
      }
 
 
-      @media (max-width: 648px){
+      @media (max-width: 430px){
 
 
   .summer_img, .Farther_img ,.Farther_img,.Sweet_img ,.modern_img{
@@ -1633,8 +1633,14 @@ span{
   flex-wrap: wrap;
 
 }
+.happiest_2{
+      width: 100%;
+}
 .text-3,.button-1 {
   display: none;
+}
+.blooms_2{
+  width: 100%;
 }
 .nav2-img>.search,.parents_wine_menu_list,.parents-1{
   display: none;
@@ -1715,6 +1721,7 @@ input, input :focus {
     margin-left: 134px;
     font-size: 15px;
 }
+
 
 .happiest_img,.blooms_img {
     width: 100%;
