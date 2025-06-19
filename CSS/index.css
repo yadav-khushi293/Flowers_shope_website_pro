@@ -1627,7 +1627,11 @@ span{
 }
 
 .blooms ,.happiest{
-  display:grid;
+  display:flex;
+  overflow: scroll;
+  width: 100%;
+  margin:auto;
+  padding-top:30px ;
 }
 .text-3,.button-1 {
   display: none;
@@ -1686,7 +1690,7 @@ span{
       height: 54px;
 }
 .Calendar-img{
-  height: 45px;
+  height: 40px;
   width: 42px;
 }
 input, input :focus {
