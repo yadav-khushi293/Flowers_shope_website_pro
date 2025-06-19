@@ -1695,10 +1695,15 @@ span{
 .fieldset-2{
       height: 54px;
 }
-.Calendar-img{
-  height: 44px;
-  width: 42px;
-}
+
+ .Calendar-img{
+          height: 44px;
+          width: 42px;
+          position: absolute;
+          top: 9px;
+          left: 225px;
+        }
+        
 input, input :focus {
     font-size: 16px;
     padding: 5px 0px;
