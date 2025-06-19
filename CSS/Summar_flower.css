@@ -971,21 +971,18 @@ span{
   height: auto;
 }
 .fieldset-1 {
-    width: 384px;
+    width: 323px;
     height: 62px;
 }
 .fieldset-2 {
-    width: 373px;
+    width: 323px;
     height: 62px;
 }
 .Calendar-img {
-    width: 48px;
-    height: 53px;
-    top: 9px;
-    left: 325px;
+  display: none;
 }
 .shopnow {
-    width: 359px;
+    width: 323px;
     padding: 16px 0px;
     font-size: 20px;
 }
@@ -1001,7 +998,7 @@ span{
 }
 .button_9 
 {
-width: 177px;
+width: 176px;
 }
 
 .parents_7,.parents_8 {
