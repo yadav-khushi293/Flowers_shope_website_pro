@@ -1720,10 +1720,18 @@ input, input :focus {
     font-size: 30px;
     padding-top: 11px;
 }
-.button_2,.button_4,.button_6,.button_8  {
+.button_2,.button_4,.button_8  {
     width: 150px;
     height: 50px;
     padding: 10px 0px;
+    margin-left: 134px;
+    font-size: 15px;
+}
+.button_6{
+   width: 150px;
+    height: 50px;
+    padding: 10px 0px;
+    font-size: 13px;
     margin-left: 134px;
     font-size: 15px;
 }
