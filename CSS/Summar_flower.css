@@ -1059,3 +1059,12 @@ li,.footer_text{
     font-size: 12px;
 }
   }
+
+
+     @media (min-width: 841px) and (max-width: 1080px){
+      footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+     }
