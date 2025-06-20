@@ -1904,7 +1904,9 @@ li,.footer_text{
   margin-left: 400px;
 }
 
-
+.section_1,.section_2{
+  top: 50px;
+}
 
 
     }
