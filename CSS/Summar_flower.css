@@ -1142,6 +1142,8 @@ li,.footer_text{
   .nav_1{
     display: flex;
     justify-content:end;
+    margin: auto;
+    width: 80%;
     gap: 0px;
     
   }
