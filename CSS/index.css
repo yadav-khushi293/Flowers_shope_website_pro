@@ -1858,3 +1858,51 @@ li,.footer_text{
   width: 100%;
     }
   }
+
+
+    @media (min-width: 841px) and (max-width: 1080px){
+
+
+
+      .position-1 {
+    width: 60%;
+}
+.blooms_img{
+  width: 100%;
+  
+}
+.blooms_3{
+   width:500px;
+}
+
+.blooms{
+  width: 100%;
+}
+
+.happiest_img{
+ width: 100%;
+  
+  
+}
+.happiest_3{
+  width:500px;
+}
+
+.happiest{
+  display: flex;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.button_3{
+  margin-left: 144px;
+}
+.button_5{
+  margin-left: 136px;
+}
+
+
+
+
+
+    }
