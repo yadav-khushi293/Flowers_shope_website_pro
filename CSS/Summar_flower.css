@@ -1072,10 +1072,12 @@ li,.footer_text{
     align-items: center;
     font-size: 14px;
     height: 50px;
-    font-weight: 800;
-    border-bottom: 1px solid #f4dacd;
-    font-family: sans-serif;
-    text-decoration: underline;
+}
+.top-banner a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid transparent;
 }
 
 .star_1 {
