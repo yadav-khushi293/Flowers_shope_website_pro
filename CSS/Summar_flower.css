@@ -711,6 +711,10 @@ li:hover{
 .text-3{
   font-size: 15px;
 }
+.search {
+    width: 25px;
+    height: 25px;
+}
 .fieldset-1{
           width: 330px;
           height: 68px;
@@ -728,9 +732,7 @@ li:hover{
         top: 10px;
         left: 252px;
     }
-.star_3{
-  font-size: 30px;
-}
+
 .shopnow {
     width: 145px;
     padding: 18px 0px;
