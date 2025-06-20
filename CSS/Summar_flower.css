@@ -1064,21 +1064,6 @@ li,.footer_text{
 
      @media (min-width: 841px) and (max-width: 1080px){
      
-      .top-banner {
-    background-color: #f4dacd;
-    padding: 10px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    height: 50px;
-}
-.top-banner a {
-    color: black;
-    text-decoration: none;
-    text-align: center;
-    border-bottom: 2px solid transparent;
-}
 
 .star_1 {
     display: flex;
@@ -1134,36 +1119,15 @@ li,.footer_text{
 .footer_4{
   display: none;
 }
-.nav2-img{
+.nav_1 {
     display: flex;
-    justify-content: center;
-    gap: 2px;
-  }
-  .nav_1{
-    display: flex;
-    justify-content:start;
-    margin: auto;
-    width: 80%;
-    gap: 0px;
-    
-  }
-  .Flowerimg-1{
-    display: flex;
-    justify-content: center;
-    padding: 16px 0px;
-    border: 1px solid #fffcf9;
-    background-color: #fffcf9;
-    gap: 0px;
+    justify-content: end;
+    gap:0px;
+}
+.Flowerimg-1 {
+    padding: 16px 40px;
+    gap: 15px;
     font-size: 14px;
-    height:0px;
-     font-family: Arial,sans-serif;
-    font-weight:800;
-  }
-  
-  .Flowerimg{
-    width:100px;
-    height: 35px;
-     margin: 10px 0px;
-  }
- 
+    height: 50px;
+}
      }
