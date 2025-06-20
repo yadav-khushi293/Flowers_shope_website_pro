@@ -1136,15 +1136,7 @@ li,.footer_text{
 }
 .nav_1 {
     display: flex;
-    justify-content: end;
+    justify-content:center;
     gap:0px;
-}
-.Flowerimg-1 {
-    padding: 16px 10px;
-    margin: auto;
-    width: 100%;
-    gap:0px;
-    font-size: 14px;
-    height: 50px;
 }
      }
