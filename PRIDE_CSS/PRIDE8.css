@@ -763,6 +763,98 @@ span{
 .parensts_10 {
     height: 740px;
 }
+ }
 
+  @media (max-width: 420px){
+  .lasfooter_text {
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 12px;
+}
+.top-banner {
+  justify-content: center;
+  padding: 0px 10px;
+  gap: 10px;
+  margin: auto;
+  font-size: 13px;
+  width: 100%;
+    }
+.nav2-img>.search,.parents_wine_menu_list,.parents-1{
+  display: none;
+}
+.text-3{
+  display: none;
+}
+.Flowerimg-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 34px;
+}
+.Flowerimg {
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+}
+.nav_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+     margin: auto;
+    width: 100%;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    }
+   .parents_2 {
+    gap: 150px;
+    margin: 30px 0px;
+}
+.parents_2 {
+        display: grid;
+        justify-items:center;
+        align-content:center;
+        gap:50px;
+        margin: 30px 0px;
+    }
+    .Z{
+      width: 300px;
+      height: 300px;
+    }
+ .parents-6{
+   display: none;
+  }
+.p7 {
+    font-size: 27px;
+    padding: 8px 0px;
+    word-spacing: 4px;
+}
+li,.footer_text{
+  display: none;
+}
+.proflowers-logo-1 {
+    width: 250px;
+    
+    margin: 0px 50px;
+}
 
-        }
+.footer-form_1{
+  display: none;
+}
+.parensts_10 {
+    background-color: #f3eeea;
+    height: 250px;
+    padding: 30px 0px;
+}
+.footer{
+  justify-content: center;
+}
+.lasfooter_text {
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 12px;
+}
+  
+ }
