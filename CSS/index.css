@@ -1331,11 +1331,13 @@ li:hover{
 .section_2 {
   width: 50%;
   height: 270px;
+  padding: 50px 30px !important;
 
 }
 .section_1{
   width: 50%;
   height: 270px;
+  padding: 50px 30px !important;
 }
 
 .bpl_text,.pnk_text{
@@ -1460,6 +1462,9 @@ li:hover{
   gap: 19px;
  }
     }
+
+
+
 
      @media (min-width: 481px) and (max-width: 840px){
       
