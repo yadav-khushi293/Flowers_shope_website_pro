@@ -1139,7 +1139,6 @@ li,.footer_text{
     justify-content:center;
     align-items: center;
     gap:0px; 
-    width: 100px;
   }
   .Flowerimg-1 {
     display: flex;
@@ -1152,5 +1151,6 @@ li,.footer_text{
     height: 50px;
     font-family: Arial, sans-serif;
     font-weight: 800;
+     width: 100px;
 }
      }
