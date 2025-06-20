@@ -1139,6 +1139,7 @@ li,.footer_text{
     justify-content:center;
     align-items: center;
     gap:0px; 
+    width: 100px;
   }
   .Flowerimg-1 {
     display: flex;
