@@ -1076,11 +1076,14 @@ li,.footer_text{
     height: 40px;
     font-size: 15px;
 }
-.parents_7,.parents_8 {
+.parents_7{
     display: flex;
     gap: 30px;
     justify-content: center;
     margin-top: 30px;
+}
+.parents_8 {
+  gap: 30px;
 }
 .parents_9{
   gap: 30px;
