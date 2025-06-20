@@ -1134,9 +1134,11 @@ li,.footer_text{
 .footer_4{
   display: none;
 }
-.nav_1 {
+.nav_1{
     display: flex;
     justify-content:center;
+    align-items: center;
     gap:0px;
-}
+    
+  }
      }
