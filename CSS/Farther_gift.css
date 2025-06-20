@@ -724,8 +724,8 @@ li:hover{
         top: 10px;
         left: 252px;
     }
-.star_3{
-  font-size: 30px;
+.text-3{
+  font-size: 15px;
 }
 .shopnow {
     width: 145px;
@@ -787,7 +787,7 @@ p{
 }
 .search {
     width: 25px;
-    height: 28px;
+    height: 25px;
 }
 .nav2-img {
     display: flex
