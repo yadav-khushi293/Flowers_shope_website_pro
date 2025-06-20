@@ -683,6 +683,8 @@ li:hover{
       padding:0px 5px;
     }
 
+
+
      @media (min-width: 1366px){
     .parents_7{
       gap: 60px;
@@ -706,7 +708,9 @@ li:hover{
 .summar_text_1,.summar_text_3,.summar_text_5 {
   font-size: 24px;
 }
-
+.text-3{
+  font-size: 15px;
+}
 .fieldset-1{
           width: 330px;
           height: 68px;
