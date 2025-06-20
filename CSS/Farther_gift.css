@@ -188,6 +188,8 @@
       opacity: 1;
     }
 
+
+    
     input,
         input :focus {
             border: 0 !important;
@@ -273,7 +275,7 @@
           height: 140px;
         }
 
-        .parents_5{
+        .parentsmain_5{
           margin: auto;
           width: 90%;
           padding: 20px 0px;
@@ -367,8 +369,9 @@ input[type="checkbox"] {
 
 .parents_6 {
   display: flex;
+  justify-content: start;
   gap: 20px;
-  margin:30px 70px;
+  margin:30px 0px;
   flex-wrap: wrap;
 }
 
@@ -680,7 +683,6 @@ li:hover{
       padding:0px 5px;
     }
 
-
      @media (min-width: 1366px){
     .parents_7{
       gap: 60px;
@@ -715,10 +717,11 @@ li:hover{
           height: 68px;
         
         }
-.Calendar-img {
+
+       .Calendar-img {
         width: 55px;
-        height: 59px;
-        top: 8px;
+        height: 58px;
+        top: 10px;
         left: 252px;
     }
 .star_3{
@@ -743,6 +746,7 @@ li:hover{
 }
 
 legend{
+  font-size: 18px;
   margin: 0px 15px;
 } 
 
@@ -753,13 +757,13 @@ legend{
     word-wrap: 5px;
 }
 p{
-  font-size:20px !important;
+  font-size:18px;
 }
 
 .parents_6 {
     display: flex;
     gap: 20px;
-    margin: 35px 73px;
+    margin: 35px 0px;
     flex-wrap: wrap;
 }
 .button-1 {
@@ -790,6 +794,7 @@ p{
 ;
     gap: 5px;
 }
+
 .proflowers-logo-1 {
     width: 298px;
     margin: 45px 40px;
@@ -826,7 +831,8 @@ span {
 
      }
 
-     @media (min-width: 481px) and (max-width: 840px){
+
+@media (min-width: 481px) and (max-width: 840px){
 .button-1 {
     width: 96px;
     height: 40px;
@@ -905,15 +911,16 @@ span{
   font-size: 14px;
 }
 .parensts_10 {
-    height: 720px;
+    height: 740px;
 }
 .proflowers-logo-1 {
     width: 238px;
     margin: 35px 25px;
 }
-
 }
-@media (max-width: 420px){
+
+
+  @media (max-width: 420px){
 
 
     .top-banner {
@@ -1053,3 +1060,74 @@ li,.footer_text{
     font-size: 12px;
 }
   }
+
+
+     @media (min-width: 841px) and (max-width: 1080px){
+     
+
+.star_1 {
+    display: flex;
+    gap: 10px;
+    padding: 40px 30px;
+    width: 100%;
+    margin: auto;
+}
+.button-1 {
+    width: 95px;
+    height: 40px;
+    font-size: 15px;
+}
+.parents_7{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.parents_8 {
+  gap: 30px;
+}
+.parents_9{
+  gap: 30px;
+}
+.A,.B,.C {
+  width: 250px;
+  height: 230px;
+}
+.summar_text_4{
+    text-align: center;
+    padding: 14px 0px;
+    font-size: 16px;
+    color: #1a1b20;
+}
+.summar_text,.summar_text_2 {
+  font-size: 16px;
+}
+.parensts_10{
+  margin: auto;
+  width: 100%;
+  padding: 0px 30px;
+  height:940px;
+}
+.footer-form {
+    width: 184px;
+    height: 45px;
+}
+.button_form {
+    width: 72px;
+    height: 44px;
+}
+.footer_4{
+  display: none;
+}
+.nav_1 {
+    display: flex;
+    justify-content: end;
+    gap:0px;
+}
+.Flowerimg-1 {
+    padding: 16px 40px;
+    gap: 15px;
+    font-size: 14px;
+    height: 50px;
+}
+     }
