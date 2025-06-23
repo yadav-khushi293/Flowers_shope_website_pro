@@ -1616,12 +1616,10 @@ span{
 .summer_text{
   font-size: 40px;
 }
-
-     }
+}
 
 
       @media (max-width: 420px){
-
 
   .summer_img, .Farther_img ,.Farther_img,.Sweet_img ,.modern_img{
     display: flex;
