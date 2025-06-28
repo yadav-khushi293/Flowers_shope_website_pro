@@ -1617,6 +1617,79 @@ span{
   font-size: 40px;
 }
 }
+/****320-media-query**/
+ @media (max-width: 320px){
+.proflowers-logo-1 {
+        width:200px !important;
+        margin: 0px 50px !important;
+    }
+    .pnk_bk_img, .bpl_bk_img {
+        height: 227px !important;
+        width: 100%;
+    }
+    .section_2 {
+        top: 25px !important;
+        height: 180px !important;
+        padding: 10px 20px;
+    }
+  .section_1 {
+    top: 25px !important;
+        height: 180px !important;
+        padding: 10px 20px;
+  }
+      .pnk_text, .bpl_text {
+        font-size: 20px !important;
+    }
+    .button_7 {
+        width: 101px !important;
+        height: 31px !important;
+        padding: 8px 0px !important;
+    }
+    .button_2, .button_4, .button_8 {
+        width: 137px !important;
+        height: 45px !important;
+        padding: 10px 0px !important;
+        margin-left: 89px !important;
+        font-size: 13px !important;
+    }
+    .button_6 {
+        width: 137px !important;
+        height: 45px !important;
+        padding: 5px 0px;
+        font-size: 12px !important;
+        margin-left: 89px !important;
+    }
+    .find {
+
+    font-size: 23px !important;
+}
+.buttonserch {
+        width: 206px !important;
+        height: 43px !important;
+        font-size: 15px !important;
+        margin: 9px 0px !important;
+    }
+
+        .position-1 {
+        padding: 13px 22px !important;
+    }
+    .button_3, .button_5 {
+        width: 137px !important; 
+        height: 45px !important;
+        margin-left: 90px !important;
+        font-size: 11px !important;
+    }
+        .happiest_text, .blooms_text {
+        font-size: 30px !important;
+    }
+    .blooms_text-1,.happiest_text-1 {
+    text-align: center;
+    padding: 15px 0px !important;
+    font-size: 15px !important;
+}
+}
+ 
+
 
 
       @media (max-width: 420px){
