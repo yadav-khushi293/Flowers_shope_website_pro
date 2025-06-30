@@ -683,6 +683,8 @@ li:hover{
       padding:0px 5px;
     }
 
+
+
      @media (min-width: 1366px){
     .parents_7{
       gap: 60px;
@@ -706,7 +708,13 @@ li:hover{
 .summar_text_1,.summar_text_3,.summar_text_5 {
   font-size: 24px;
 }
-
+.text-3{
+  font-size: 15px;
+}
+.search {
+    width: 25px;
+    height: 25px;
+}
 .fieldset-1{
           width: 330px;
           height: 68px;
@@ -724,9 +732,7 @@ li:hover{
         top: 10px;
         left: 252px;
     }
-.text-3{
-  font-size: 15px;
-}
+
 .shopnow {
     width: 145px;
     padding: 18px 0px;
@@ -787,7 +793,7 @@ p{
 }
 .search {
     width: 25px;
-    height: 25px;
+    height: 28px;
 }
 .nav2-img {
     display: flex
@@ -876,6 +882,12 @@ p {
         font-size: 19px;
         text-align: center;
     }
+    .shopnow {
+   
+    padding: 10px 0px;
+   
+}
+
 
     footer{
   gap: 20px;
@@ -918,6 +930,201 @@ span{
     margin: 35px 25px;
 }
 }
+@media (max-width: 320px){
+  .star_1 {
+        display: grid !important;
+        justify-items:center !important; 
+         gap: 0px !important; 
+        padding: 20px 10px !important;
+        width: 100%;
+        margin: auto;
+    }
+      .fieldset-1 {
+        width: 250px !important;
+        height: 62px;
+    }
+        .fieldset-2 {
+        width: 250px !important;
+        height: 62px;
+    }
+        .shopnow {
+       width: 250px !important;
+        padding: 16px 0px;
+        font-size: 20px;
+          margin: 8px 0px !important;
+    }
+    .parents_6 {
+        display: flex !important;
+       overflow-x: scroll !important;
+        gap: 10px;
+        margin: 30px 0px !important;
+        height: 50px !important;
+        flex-wrap: nowrap !important;
+    }
+  .proflowers-logo-1 {
+        width: 210px !important;
+        margin: 0px 50px;
+    }
+
+
+
+}
+ @media (min-width:321px) and (max-width:380px){
+    .parents_6 {
+        display:flex !important;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 10px;
+        margin: 30px 20px;
+    }
+}
+
+
+
+
+
+ @media (min-width: 421px) and (max-width:440px){
+  
+  .top-banner {
+  justify-content: center;
+  padding: 0px 10px;
+  gap: 10px;
+  margin: auto;
+  font-size: 13px;
+  width: 100%;
+    }
+    .text-3,.button-1 {
+  display: none;
+}
+.nav2-img>.search,.parents_wine_menu_list,.parents-1{
+  display: none;
+}
+.Flowerimg {
+    width: 150px;
+    height: 30px;
+    margin: 0px;
+}
+.Flowerimg-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 34px;
+}
+ .search {
+        width: 25px;
+        height: 23px;
+    }
+.nav_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+     margin: auto;
+    width: 90%;
+    }
+    .star_1 {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    padding: 20px 0px !important;
+    width: 100%;
+    margin: auto !important;
+}
+.parents2{
+  height: auto;
+}
+.fieldset-1 {
+  width:281px;
+    height: 62px;
+}
+.fieldset-2 {
+  width:281px;
+    height: 62px;
+}
+.Calendar-img {
+  display: none;
+}
+.shopnow {
+    width:281px;
+    padding: 16px 0px;
+    font-size: 20px;
+    margin: 8px 0px;
+}
+.star_3{
+  font-size: 38px;
+}
+.parents_6 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin: 30px 20px;
+    flex-wrap: wrap;
+}
+.button_9 
+{
+width: 172px;
+height: 40px;
+padding: 8px 10px;
+}
+
+.parents_7,.parents_8 {
+    display: flex;
+    overflow: scroll;
+    gap: 70px;
+    justify-content:start;
+    padding-top: 30px;
+    margin: auto;
+    scrollbar-width: none;
+    width: 90%;
+}
+.parents_8 {
+ display: flex;
+    overflow: scroll;
+    gap: 70px;
+    justify-content:start;
+    scrollbar-width: none;
+    padding: 50px 0;
+    margin: auto;
+    width: 90%;
+}
+.parents_9{
+  display: flex;
+    overflow: scroll;
+    gap: 70px;
+    justify-content:start;
+    scrollbar-width: none;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 90%;
+}
+li,.footer_text{
+  display: none;
+}
+.proflowers-logo-1 {
+    width: 250px;
+    
+    margin: 0px 50px;
+}
+
+.footer-form_1{
+  display: none;
+}
+.parensts_10 {
+    background-color: #f3eeea;
+    height: 250px;
+    padding: 30px 0px;
+}
+.footer{
+  justify-content: center;
+}
+.lasfooter_text {
+    text-align: center;
+    margin: 18px 0px;
+    font-size: 12px;
+}
+ }
+
+
 
 
   @media (max-width: 420px){
@@ -1062,4 +1269,72 @@ li,.footer_text{
   }
 
 
-   
+     @media (min-width: 841px) and (max-width: 1080px){
+     
+
+.star_1 {
+    display: flex;
+    gap: 10px;
+    padding: 40px 30px;
+    width: 100%;
+    margin: auto;
+}
+.button-1 {
+    width: 95px;
+    height: 40px;
+    font-size: 15px;
+}
+.parents_7{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.parents_8 {
+  gap: 30px;
+}
+.parents_9{
+  gap: 30px;
+}
+.A,.B,.C {
+  width: 250px;
+  height: 230px;
+}
+.summar_text_4{
+    text-align: center;
+    padding: 14px 0px;
+    font-size: 16px;
+    color: #1a1b20;
+}
+.summar_text,.summar_text_2 {
+  font-size: 16px;
+}
+.parensts_10{
+  margin: auto;
+  width: 100%;
+  padding: 0px 30px;
+  height:940px;
+}
+.footer-form {
+    width: 184px;
+    height: 45px;
+}
+.button_form {
+    width: 72px;
+    height: 44px;
+}
+.footer_4{
+  display: none;
+}
+.nav_1 {
+    display: flex;
+    justify-content: end;
+    gap:0px;
+}
+.Flowerimg-1 {
+    padding: 16px 40px;
+    gap: 15px;
+    font-size: 14px;
+    height: 50px;
+}
+     }

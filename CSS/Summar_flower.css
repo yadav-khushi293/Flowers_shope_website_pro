@@ -882,6 +882,12 @@ p {
         font-size: 19px;
         text-align: center;
     }
+    .shopnow {
+   
+    padding: 10px 0px;
+   
+}
+
 
     footer{
   gap: 20px;
@@ -963,13 +969,13 @@ span{
 
 
 }
- @media (min-width:321px) and (max-width:375px){
+ @media (min-width:321px) and (max-width:380px){
     .parents_6 {
         display:flex !important;
         grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
         gap: 10px;
         margin: 30px 20px;
-        flex-wrap: wrap;
     }
 }
 
