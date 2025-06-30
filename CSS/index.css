@@ -1465,7 +1465,7 @@ li:hover{
 
 
 
-
+/*
   @media (min-width: 481px) and (max-width:840px){
       
       .happiest_img,.blooms_img {
@@ -1616,12 +1616,98 @@ span{
 .summer_text{
   font-size: 40px;
 }
+}*/
+
+
+
+ @media (min-width: 441px) and (max-width:770px){
+  .summer_img,.Farther_img,.modern_img ,.Sweet_img {
+   display: grid !important;
+   grid-template-columns: repeat(2,1fr) !important;
+   justify-items: center !important;
+   gap: 20px;
+
+}
+.happiest,.blooms{
+  flex-wrap: wrap;
+}
+.button_2,.button_4,.button_6,.button_8 {
+  margin-left: 287px;
+}
+.parents_wine_menu_list {
+    display: flex;
+    gap: 9px;
+}
+.button-1 {
+    width: 89px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #fff;
+    border: transparent;
+    color: #252727;
+}
+.Flowerimg-1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+    gap: 20px;
+    font-size: 14px;
+}
+.position-1 {
+  width: 83%;
 }
 
-
-
-
-
+.happiest_img,.happiest_3,.blooms_3,.blooms_img  {
+    width: 764px;
+    height: 370px;
+    object-fit: fill;
+}
+.bpl_bk_img,.pnk_bk_img {
+    width: 100%;
+    height: 300px;
+    display: block;
+    position: relative;
+    z-index: 0;
+}
+.section_2,.section_1 {
+  top: 26px;
+}
+.bpl_text{
+  font-size: 31px;
+}
+.pnk_text{
+  font-size: 27px;
+}
+.footer_1,.footer_text,li,.footer-form,.button_form{
+  display: none;
+}
+.footer {
+    display: flex;
+     justify-content:center; 
+}
+.parensts_10 {
+    background-color: #f3eeea;
+    height: 350px;
+}
+.lasfooter_text {
+    text-align: center;
+    margin:auto;
+    width: 100%;
+    padding: 30px 20px;
+}
+.proflowers-logo-1 {
+    width: 336px;
+    margin: 30px 201px;
+}
+.slider_3D{
+  display: none;
+}
+.footerchilde_1 {
+    display: flex;
+    margin: 20px 0px;
+    gap: 37px;
+}
+ }
 
 
 
@@ -1677,7 +1763,7 @@ span{
         font-size: 15px !important;
         margin: 9px 0px !important;
     }
-
+    
         .position-1 {
         padding: 13px 22px !important;
     }
