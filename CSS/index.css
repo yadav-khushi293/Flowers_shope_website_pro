@@ -354,6 +354,12 @@
   .summer_text:hover{
     color: #880e4f;
   }
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
 
 
   .button_2 {
@@ -362,7 +368,7 @@
   width: 200px;
   height: 55px;
   padding: 10px 0px;
-  margin-left: 510px;
+  margin-left:0px;
   font-size: 17px;
   color:white;
   border: 2px solid black;
@@ -430,7 +436,7 @@
   height: 55px;
   padding: 10px 0px;
   margin: 10px 0px;
-  margin-left: 210px;
+  margin-left: 0px;
   font-size: 15px;
   color:white;
   border: 2px solid black;
@@ -550,7 +556,7 @@
   width: 200px;
   height: 55px;
   padding: 10px 0px;
-  margin-left: 510px;
+  margin-left:0px;
   font-size: 16px;
   color:white;
   border: 2px solid black;
@@ -619,7 +625,7 @@
   height: 55px;
   padding: 10px 0px;
   margin: 10px 0px;
-  margin-left: 200px;
+  margin-left:0px;
   font-size: 15px;
   color:white;
   border: 2px solid black;
@@ -809,7 +815,7 @@
   width: 236px;
   height: 55px;
   padding: 17px 0px;
-  margin-left: 510px;
+  margin-left:0px;
   font-size: 15px;
   color:white;
   border: 2px solid black;
@@ -897,7 +903,6 @@
   width: 150px;
   height: 50px;
   padding: 17px 0px;
-  margin-left: 10px;
   font-size: 14px;
   color:white;
   border: 2px solid black;
@@ -907,7 +912,11 @@
   transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
   overflow: hidden;
 }
-
+.card_btn{
+justify-content: start !important;
+align-items: start !important;
+margin: 0px !important;
+}
 .button_7::before {
   content: '';
   position: absolute;
@@ -1026,7 +1035,11 @@
       font-weight: bolder;
       
   }
-
+.card_btn-1{
+justify-content: start !important;
+align-items: start !important;
+margin: 0px !important;
+}
   
 
   .button_8 {
@@ -1035,7 +1048,7 @@
   width: 200px;
   height: 55px;
   padding: 17px 0px;
-  margin-left: 510px;
+  margin-left: 0px;
   font-size: 17px;
   color:white;
   border: 2px solid black;
