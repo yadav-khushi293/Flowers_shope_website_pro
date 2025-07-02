@@ -1327,7 +1327,7 @@ li:hover{
   }
 
   .button_2,.button_4,.button_6,.button_8 {
-  margin-left: 670px;
+  margin-left:0px;
 }
    
   .parents_main_5,.parents_main_4{
@@ -1404,10 +1404,10 @@ li:hover{
   font-size: 19px;
 }
 .button_3{
-  margin-left: 300px;
+  margin-left:0px;
 }
 .button_5{
-  margin-left: 270px;
+  margin-left:0px;
 }
  .fieldset-1{
           width: 320px;
@@ -1645,7 +1645,7 @@ span{
   flex-wrap: wrap;
 }
 .button_2,.button_4,.button_6,.button_8 {
-  margin-left: 287px;
+  margin-left:0px;
 }
 .parents_wine_menu_list {
     display: flex;
@@ -1720,6 +1720,15 @@ span{
     margin: 20px 0px;
     gap: 37px;
 }
+.parents_main_5,.parents_main_4{
+  height: 120px;
+  margin:20px 0px
+
+}
+
+.Hire-7 > img,.Hire-6 > img {
+  width: 160px;
+}
  }
 
 
@@ -1756,7 +1765,7 @@ span{
         width: 137px !important;
         height: 45px !important;
         padding: 10px 0px !important;
-        margin-left: 89px !important;
+        margin-left:0px !important;
         font-size: 13px !important;
     }
     .button_6 {
@@ -1764,7 +1773,7 @@ span{
         height: 45px !important;
         padding: 5px 0px;
         font-size: 12px !important;
-        margin-left: 89px !important;
+        margin-left:0px !important;
     }
     .find {
 
@@ -1783,7 +1792,7 @@ span{
     .button_3, .button_5 {
         width: 137px !important; 
         height: 45px !important;
-        margin-left: 90px !important;
+        margin-left: 0px !important;
         font-size: 11px !important;
     }
         .happiest_text, .blooms_text {
@@ -1907,7 +1916,7 @@ input, input :focus {
     width: 150px;
     height: 50px;
     padding: 10px 0px;
-    margin-left: 134px;
+    margin-left:0px !important;
     font-size: 15px;
 }
 .button_6{
@@ -1915,7 +1924,7 @@ input, input :focus {
     height: 50px;
     padding: 5px 0px;
     font-size: 12px;
-    margin-left: 134px;
+    margin-left:0px !important;
     font-size: 15px;
 }
 
@@ -1937,7 +1946,7 @@ input, input :focus {
     height: 51px;
     padding: 10px 0px;
     margin: 0px 0px;
-    margin-left: 128px;
+    margin-left:0px !important;
     font-size: 13px;
 }
 .happiest_text,.blooms_text{
@@ -2150,7 +2159,7 @@ input, input :focus {
     width: 150px;
     height: 50px;
     padding: 10px 0px;
-    margin-left: 134px;
+    margin-left:0px !important;
     font-size: 15px;
 }
 .button_6{
@@ -2158,7 +2167,7 @@ input, input :focus {
     height: 50px;
     padding: 5px 0px;
     font-size: 12px;
-    margin-left: 134px;
+    margin-left:0px !important;
     font-size: 15px;
 }
 
@@ -2180,7 +2189,7 @@ input, input :focus {
     height: 51px;
     padding: 10px 0px;
     margin: 0px 0px;
-    margin-left: 128px;
+    margin-left:0px !important;
     font-size: 13px;
 }
 .happiest_text,.blooms_text{
@@ -2325,13 +2334,13 @@ li,.footer_text{
 }
 
 .button_3{
-  margin-left: 144px;
+  margin-left:0px;
 }
 .button_5{
-  margin-left: 136px;
+  margin-left:0px;
 }
 .button_2,.button_4,.button_6,.button_8{
-  margin-left: 400px;
+  margin-left:0px;
 }
 
 .section_1,.section_2{
