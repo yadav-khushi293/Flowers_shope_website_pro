@@ -161,11 +161,26 @@ All Flowers</a>
   <div class="parents_2">
 
     <div class="parents_3">
-      <div class="Z">
+      <!--div class="Z">
  <img src="../Flowerimg/PRPINK24_LOL_preset_proflowers-mx-tile-wide-sv-new.webp" class="summer_img">
-       </div>
+       </div-->
        
+       <div class="gallery">
+
+    <img img src="../Flowerimg/Arrow Down.svg"  class="arrow left-arrow" onclick="prevImage()">
+    <div class="main-image">
+      <img id="mainDisplay" src="../Flowerimg/PRPINK24_LOL_preset_proflowers-mx-tile-wide-sv-new.webp"   class="summer_img" alt="Main Image">
     </div>
+    <img  src="../Flowerimg/Arrow Down.svg" class="arrow right-arrow"   onclick="nextImage()">
+
+  </div>
+
+  <div class="thumbnails">
+    <img src="../Flowerimg/PRPINK24_LOL_preset_proflowers-mx-tile-wide-sv-new.webp" onclick="showImage(0)" class="active">
+    <img src="../Flowerimg/ro1.webp" onclick="showImage(1)">
+  </div>
+    </div>
+       
 
      <div class="parents_4">
 
@@ -365,4 +380,33 @@ CCPA</span>
     </div>
 
 </body>
+
+<script>
+    const images = [
+"../Flowerimg/PRPINK24_LOL_preset_proflowers-mx-tile-wide-sv-new.webp" ,
+     "../Flowerimg/ro1.webp",
+     
+    ];
+
+    const thumbnails = document.querySelectorAll('.thumbnails img');
+    let currentIndex = 0;
+
+    function showImage(index) {
+      currentIndex = index;
+      document.getElementById('mainDisplay').src = images[index];
+      thumbnails.forEach(img => img.classList.remove('active'));
+      thumbnails[index].classList.add('active');
+    }
+
+    function prevImage() {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      showImage(currentIndex);
+    }
+
+    function nextImage() {
+      currentIndex = (currentIndex + 1) % images.length;
+      showImage(currentIndex);
+    }
+  </script>
+
 </html>
