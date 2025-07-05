@@ -18,7 +18,7 @@
       width: 490px;
       height: 470px;
       border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      border: 1px solid rgb(177, 176, 176);
     }
 
     .arrow {
