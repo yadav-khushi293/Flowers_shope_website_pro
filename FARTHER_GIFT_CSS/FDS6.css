@@ -8,6 +8,78 @@
    font-family: Poppins, sans-serif;
 }
 
+
+
+
+
+.gallery {
+      position: relative;
+      display: inline-block;
+    }
+
+    .main-image img {
+      width: 490px;
+      height: 470px;
+      border-radius: 10px;
+      border: 1px solid rgb(177, 176, 176);
+    }
+
+    .arrow {
+      font-size: 30px;
+      position: absolute;
+      top: 45%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.3);
+      color: white;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      line-height: 38px;
+      text-align: center;
+      user-select: none;
+    }
+
+    .arrow:hover {
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .left-arrow {
+      left: -90px;
+      rotate: 90deg;
+    }
+
+    .right-arrow {
+      right: -90px;
+         rotate: -90deg;
+    }
+
+    .thumbnails {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .thumbnails img {
+      width: 70px;
+      height: 70px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .thumbnails img:hover,
+    .thumbnails img.active {
+      border-color: #ff3399;
+      border: 3px solid black;
+      /*transform: scale(1.05);*/
+    }
+
+
+/*********/
+
 .top-banner {
       background-color: #f4dacd;
       padding: 10px 0;
