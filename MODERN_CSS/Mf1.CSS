@@ -1010,6 +1010,9 @@ li,.footer_text{
       transition: 0.3s;
     }
 }
+
+
+
  @media (min-width: 421px) and (max-width:440px){
   .lasfooter_text {
     text-align: center;
