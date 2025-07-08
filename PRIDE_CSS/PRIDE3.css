@@ -855,7 +855,7 @@ span{
     transition: 0.3s;
 }
       }
-      
+
  @media (max-width: 420px){
   .lasfooter_text {
     text-align: center;
@@ -948,6 +948,15 @@ li,.footer_text{
     font-size: 12px;
 }
  .arrow{
+  display: none;
+}
+.main-image img {
+           width: 372px;
+        height: 344px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 176, 176);
+}
+.arrow{
   display: none;
 }
 .main-image img {
