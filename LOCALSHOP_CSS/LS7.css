@@ -835,7 +835,27 @@ span{
 }
 
 
-        }
+ .arrow{
+  display: none;
+}
+
+.main-image img {
+    width: 342px;
+    height: 330px;
+    border-radius: 10px;
+    border: 1px solid rgb(177, 176, 176);
+}
+
+.thumbnails img {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+}
 
          @media (max-width: 420px){
   .lasfooter_text {
