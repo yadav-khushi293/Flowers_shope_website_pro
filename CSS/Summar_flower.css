@@ -972,9 +972,10 @@ span{
 
  @media (min-width:321px) and (max-width:380px){
     .parents_6 {
-        display:flex !important;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
+        display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: scroll;
         gap: 10px;
         margin: 30px 20px;
     }
@@ -1059,7 +1060,7 @@ span{
    justify-content: center;
    align-items: center;
    overflow: scroll;
-   
+
     gap: 10px;
     margin: 30px 20px;
 }
