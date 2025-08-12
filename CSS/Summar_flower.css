@@ -972,10 +972,10 @@ span{
 
  @media (min-width:321px) and (max-width:380px){
     .parents_6 {
-        display: flex;
-   justify-content: center;
-   align-items: center;
-   overflow: scroll;
+        display: flex !important;
+   justify-content: center !important;
+   align-items: center !important;
+   overflow: scroll !important;
         gap: 10px;
         margin: 30px 20px;
     }
