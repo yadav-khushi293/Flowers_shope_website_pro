@@ -1055,11 +1055,13 @@ span{
   font-size: 38px;
 }
 .parents_6 {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: scroll;
+   
     gap: 10px;
     margin: 30px 20px;
-    flex-wrap: wrap;
 }
 .button_9 
 {
