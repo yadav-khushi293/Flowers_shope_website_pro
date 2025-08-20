@@ -1307,23 +1307,12 @@ li:hover{
       height: 270px;
     }
     .nav_1 {
-    display: flex
-;
-    justify-content: end;
     gap: 150px;
 }
 
 .Flowerimg-1 {
-    display: flex;
-    justify-content: center;
     padding: 25px 100px;
-    border: 1px solid #fffcf9;
-    background-color: #fffcf9;
-    gap: 20px;
-    font-size: 14px;
-    height: 50px;
-    font-family: Arial, sans-serif;
-    font-weight: 800;
+   
 }
     .summer_img{
     gap:0px;
