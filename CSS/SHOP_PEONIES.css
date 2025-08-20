@@ -689,6 +689,15 @@ li:hover{
     .parents_7{
       gap: 60px;
     }
+      
+     .nav_1 {
+    gap:90px;
+}
+.proflowers-logo-1 {
+   width: 340px;
+    margin: 45px 40px;
+}
+
     
 
     .A,.B,.C{
@@ -782,7 +791,7 @@ p{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 16px 60px;
+   padding: 25px 100px;
     border: 1px solid #fffcf9;
     background-color: #fffcf9;
     gap: 20px;
@@ -799,11 +808,6 @@ p{
     display: flex
 ;
     gap: 5px;
-}
-
-.proflowers-logo-1 {
-    width: 298px;
-    margin: 45px 40px;
 }
 
 .footer_text {
