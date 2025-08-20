@@ -1310,13 +1310,13 @@ li:hover{
     display: flex
 ;
     justify-content: end;
-    gap: 90px;
+    gap: 150px;
 }
 
 .Flowerimg-1 {
     display: flex;
     justify-content: center;
-    padding: 16px 80px;
+    padding: 25px 100px;
     border: 1px solid #fffcf9;
     background-color: #fffcf9;
     gap: 20px;
