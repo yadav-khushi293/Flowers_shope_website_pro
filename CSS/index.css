@@ -2361,3 +2361,80 @@ li,.footer_text{
   top: 40px;
 }
     }
+
+    @media (min-width:2560px) {
+
+      .happiest_img, .blooms_img {
+        width: 1000px;
+        height: 380px;
+        object-fit: fill;
+    }
+
+        .happiest_3, .blooms_3 {
+        border: 2px solid #f3eeea;
+        width: 1550px;
+        height: 380px;
+        background-color: #eee1d6;
+        padding: 100px 0px;
+        word-wrap: 2px;
+    }
+        .section_2 {
+        width: 50%;
+        height: 463px;
+        padding: 93px 49px !important;
+    }
+        .section_1 {
+        width: 50%;
+        height: 463px;
+        padding: 93px 49px !important;
+    }
+    .bpl_text, .pnk_text {
+        font-size: 85px;
+        word-spacing: 5px;
+    }
+    .bpl_txt_1, .pank_txt_1 {
+        padding: 18px 0px;
+        font-size: 35px;
+    }
+    .happiest_3, .blooms_3 {
+        width: 1550px;
+        height: 380px;
+        padding: 60px 0px;
+    }
+     .happiest_text, .blooms_text {
+        font-size: 55px;
+    }
+    
+    .happiest_text-1, .blooms_text-1 {
+        font-size: 26px;
+    }
+   .proflowers-logo-1 {
+        width: 300px;
+        margin: 30px 202px;
+    }
+    .fieldset-1 {
+        width: 491px;
+        height: 65px;
+    }
+        .fieldset-2 {
+        width: 492px;
+        height: 65px;
+    }
+    .Calendar-img {
+        top: 7px;
+        left: 436px;
+    }
+        .position-1 {
+        width: 44%;
+        height: 270px;
+        padding: 20px 50px;
+    }
+       .nav_1 {
+        gap: 500px;
+    }
+    .Flowerimg-1 {
+        padding: 25px 197px;
+    }
+
+
+    }
