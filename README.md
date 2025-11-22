@@ -2,7 +2,7 @@
 
 <br>
 
-A clean and stylish flower shop website designed to highlight beautiful bouquets. Fully responsive layout ensures perfect viewing on mobile, tablet, and desktop.
+🌺 A clean and stylish flower shop website designed to highlight beautiful bouquets. Fully responsive layout ensures perfect viewing on mobile, tablet, and desktop 🌺.
 
 <hr>
 
