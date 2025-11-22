@@ -69,7 +69,7 @@
 
 <h2>🌺👨‍💻 Created by 🌺</h2>
 
-Your Name:-
+ Name:-
 YADAV KHUSHI  (Frontend Developer)
 
 
