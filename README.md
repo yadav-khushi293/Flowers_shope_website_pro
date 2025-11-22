@@ -67,7 +67,7 @@
 
 <hr>
 
-<h2>🌺👨‍💻 Author 🌺</h2>
+<h2>🌺👨‍💻 Created by 🌺</h2>
 
 Your Name:-
 YADAV KHUSHI  (Frontend Developer)
