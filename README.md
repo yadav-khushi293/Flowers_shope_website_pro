@@ -1,30 +1,32 @@
-<h1>🌸🌷  Flower Shop Website 🌸🌷 </h1>
+<h1>🌸🌷🌼🌻  Flower Shop Website 🌼🌻🌸🌷 </h1>
 <br>
 A clean and stylish flower shop website designed to highlight beautiful bouquets. Fully responsive layout ensures perfect viewing on mobile, tablet, and desktop.
 <hr>
 
-<h2>✨ Features</h2>
+<h2>🌸 Features 🌸</h2>
 
-• 🎨 Modern & Attractive Design
+•🌷 Modern & Attractive Design
 
-•📱 Fully Responsive Layout
+•🌻 Fully Responsive Layout
 
-•🧭 Easy and Smooth Navigation
+•🌷 Easy & Smooth Navigation
 
-•🍾 Clean Wine Product Showcase
+•🌻 Beautiful Flower Gallery
 
-•⚡ Fast & Lightweight (HTML + CSS)
+•🌷 Fast & Lightweight (HTML + CSS + JS)
 
 •👤 Solo Developer Project
 
 <hr>
-🛠️ Tech Stack
+<h2>🌸 Tech Stack 🌸</h2>
+
+🌼 HTML5
 <br>
 <br>
-✨ HTML5
+🌼 CSS3 (Flexbox / Grid / Responsive Design)
 <br>
 <br>
-✨CSS3 (Flexbox / Grid / Responsive Design)
+🌼 js
 
 <hr>
 <h2>🖼️ Website Preview Images<br></h2>
