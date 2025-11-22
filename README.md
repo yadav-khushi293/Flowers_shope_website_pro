@@ -1,7 +1,6 @@
 <h1>🌸🌷  Flower Shop Website 🌸🌷 </h1>
 <br>
-A fully responsive and visually appealing Wine Shop Website built using only HTML and CSS.
-This is a solo project focused on clean design, smooth layout, and an elegant user experience.
+A clean and stylish flower shop website designed to highlight beautiful bouquets. Fully responsive layout ensures perfect viewing on mobile, tablet, and desktop.
 <hr>
 
 <h2>✨ Features</h2>
