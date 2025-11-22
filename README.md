@@ -1,6 +1,9 @@
-<h1>🌸🌷🌼🌻  Flower Shop Website 🌼🌻🌸🌷 </h1>
+<h1 align="center">🌸🌷🌼🌻🌺 Flower Shop Website 🌼🌺🌻🌸🌷</h1>
+
 <br>
+
 A clean and stylish flower shop website designed to highlight beautiful bouquets. Fully responsive layout ensures perfect viewing on mobile, tablet, and desktop.
+
 <hr>
 
 <h2>🌸 Features 🌸</h2>
@@ -29,7 +32,7 @@ A clean and stylish flower shop website designed to highlight beautiful bouquets
 🌼 js
 
 <hr>
-<h2>🖼️ Website Preview Images<br></h2>
+<h2>🌺 🖼️ Website Preview Images 🌺<br></h2>
 
 
 <h3>🍷Home Page </h3> 
